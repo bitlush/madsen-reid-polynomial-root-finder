@@ -1,6 +1,6 @@
 ## Madsen-Reid Polynomial Root Finder in C++
 
-This is a black-box polynomial root finder written in modern C++.
+This is a black-box polynomial root finder written in modern C++ (header only, no dependencies except the standard library).
 
 It is based on the 1975 paper: K. Madsen and J. Reid, "Fortran Subroutines for Finding Polynomial Zeros."
 
