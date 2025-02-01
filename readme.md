@@ -19,7 +19,7 @@ for (std::size_t i = 0; i < polynomial.size() - 1; i++)
 }
 ```
 
-Similarly, polynomials with complex coefficients can be handled using the class 'bitlush::madsen_root_finder<std::complex<double>>``.
+Similarly, polynomials with complex coefficients can be handled using the class `bitlush::madsen_root_finder<std::complex<double>>`.
 
 ### Why another root finder?
 The goal of this code is to present a clean and clear implementation of the algorithm described in the Madsen and Reid paper. It is not a direct translation of the original Fortran (which is difficult to read). The majority of root-finding implementations are not easy to understand and are hard to build upon.
