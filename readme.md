@@ -24,6 +24,8 @@ Similarly, polynomials with complex coefficients can be handled using the class 
 ### Why another root finder?
 The goal of this code is to present a clean and clear implementation of the algorithm described in the Madsen and Reid paper. It is not a direct translation of the original Fortran (which is difficult to read). The majority of root-finding implementations are not easy to understand and are hard to build upon.
 
+Examples of the Madsen-Reid algorithm are scarce, yet it performs well and is a good choice despite being over 50 years old. Hopefully, this implementation will help increase its popularity.
+
 ### Performance and Accuracy
 The Madsen-Reid algorithm performs favorably compared to alternative polynomial root-finding algorithms in terms of speed and robustness, while having the advantage of being easy to understand.
 
